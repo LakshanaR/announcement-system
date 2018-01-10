@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> IoT Based Announcement System </title>
+<link rel="stylesheet" href='/static/style.css' />
+</head>
+<body>
+<h1><b> IoT Based Announcement System </b></h1>
+<hr>
+<form action="change" method="post">
+<!--Select the LCD number here:<br>
+<select name="lcdno" autofocus>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select>
+<br><br>-->
+Write the text to be announced:<br>
+<input type="text" name="lcd" id="lcd" required placeholder="Info to be announced">
+<br><br>
+<input type="submit" formmethod="post" value="Submit" onclick="alert('Your content has been submitted')">
+</form>
+</body>
+</html>
